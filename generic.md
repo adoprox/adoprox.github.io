@@ -1,13 +1,41 @@
 ---
-layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: UAV, electronics and others
+layout: page
+description: 'Projects related to electronics, UAV technology & other things that interest me'
+image: assets/images/uav.jpg
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+<section id="two" class="spotlights">
+	<section>
+		<a href="2023/12/18/ONOS.html" class="image">
+			<img src="{% link assets/images/sdn_front.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>SDN authentication using ONOS OF controller</h3>
+				</header>
+				<p>In this project I have worked on making an authentication app for virtual hosts using ONOS OpenFlow(OF) based controller</p>
+				<ul class="actions">
+					<li><a href="2023/12/18/ONOS.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+    <section>
+		<a href="2023/05/20/space.html" class="image">
+			<img src="{% link assets/images/EPS.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>CUBESat EPS Design</h3>
+				</header>
+				<p>In this project I designed a EPS for a 6U cubesat. The cubesat carrier instrument to measure pulsars and correct its trajectory. This was a really challenging and fun project.</p>
+				<ul class="actions">
+					<li><a href="2023/05/20/space.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
