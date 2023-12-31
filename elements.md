@@ -23,6 +23,22 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
+		<a href="2023/12/30/football.html" class="image">
+			<img src="{% link assets/images/football.jpg %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Football match predictions using ODDS</h3>
+				</header>
+				<p>In this project I worked with pandas and sklearn to explore this very popular citi bike dataset. I worked with a prediction model to predict the number of pickups and later generated a heatmap for pickups and drop-offs for a monthly period. The visualization part was really insightful as the code generates interactive maps using folium for each month. </p>
+				<ul class="actions">
+					<li><a href="2023/12/30/Football.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
 		<a href="2023/12/05/citi-bike.html" class="image">
 			<img src="{% link assets/images/citi-bike.jpg %}" alt="" data-position="top center" />
 		</a>
